@@ -62,6 +62,8 @@ public class UserMapperTest {
 
     @Test
     public void selectBy(){
+
+
         
         User user = userMapper.selectOne(new QueryWrapper<User>().eq("name", "hehe"));
         System.out.println(user.toString());
